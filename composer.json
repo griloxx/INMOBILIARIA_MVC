@@ -1,0 +1,24 @@
+{
+    "name": "david/htdocs",
+    "description": "Añadiendole POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "David Grilo",
+            "email": "davidmostachoweb@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5",
+        "heroku/heroku-buildpack-php": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    }
+}
